@@ -1,0 +1,21 @@
+{
+  "name": "slevin/application_without_a_framework",
+  "description": "Without a framework",
+  "keywords": ["Your keyword", "Another keyword"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "LuckySlevin",
+      "email": "your@email.com",
+      "role": "Creator / Main Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Application\\": "src/"
+    }
+  }
+}
